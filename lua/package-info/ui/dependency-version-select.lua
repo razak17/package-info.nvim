@@ -33,14 +33,14 @@ M.new = function(props)
         },
         focusable = true,
         border = {
-            style = "rounded",
+            style = "single",
             text = {
                 top = " Select Version ",
                 top_align = "center",
             },
         },
         win_options = {
-            winhighlight = "Normal:Normal,FloatBorder:Normal",
+            winhighlight = "Normal:Normal,FloatBorder:VertSplit",
         },
     }
 

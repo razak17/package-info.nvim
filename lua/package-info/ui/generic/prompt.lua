@@ -34,7 +34,7 @@ M.new = function(props)
     local style = {
         relative = "cursor",
         border = {
-            style = "rounded",
+            style = "single",
             text = {
                 top = props.title,
                 top_align = "center",
@@ -49,7 +49,7 @@ M.new = function(props)
             height = 2,
         },
         win_options = {
-            winhighlight = "Normal:Normal,FloatBorder:Normal",
+            winhighlight = "Normal:Normal,FloatBorder:VertSplit",
         },
         focusable = true,
     }
